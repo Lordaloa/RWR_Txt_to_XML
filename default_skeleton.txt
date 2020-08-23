@@ -1,0 +1,34 @@
+<skeleton>
+    <particle x="0.500000" y="55.500000" z="0.500000" invMass="15.000000" id="50" name="head" bodyAreaHint="2" />
+    <particle x="0.500000" y="48.500000" z="0.500000" invMass="10.000000" id="45" name="neck" bodyAreaHint="2" />
+    <particle x="-6.500000" y="45.500000" z="0.500000" invMass="8.000000" id="15" name="rightshoulder" bodyAreaHint="2" />
+    <particle x="7.500000" y="45.500000" z="0.500000" invMass="8.000000" id="25" name="leftshoulder" bodyAreaHint="2" />
+    <particle x="-14.500000" y="45.500000" z="0.500000" invMass="70.000000" id="12274576" name="rightelbow" bodyAreaHint="2" />
+    <particle x="15.500000" y="45.500000" z="0.500000" invMass="70.000000" id="12273840" name="leftelbow" bodyAreaHint="2" />
+    <particle x="-21.500000" y="44.500000" z="0.500000" invMass="200.000000" id="12274112" name="righthand" bodyAreaHint="2" />
+    <particle x="22.500000" y="44.500000" z="0.500000" invMass="200.000000" id="12273488" name="lefthand" bodyAreaHint="2" />
+    <particle x="0.500000" y="35.500000" z="0.500000" invMass="10.000000" id="1" name="midspine" bodyAreaHint="1" />
+    <particle x="-4.500000" y="28.500000" z="0.500000" invMass="10.000000" id="10" name="righthip" bodyAreaHint="1" />
+    <particle x="5.500000" y="28.500000" z="0.500000" invMass="10.000000" id="20" name="lefthip" bodyAreaHint="1" />
+    <particle x="-4.500000" y="13.500000" z="0.500000" invMass="15.000000" id="12285328" name="rightknee" bodyAreaHint="1" />
+    <particle x="5.500000" y="13.500000" z="0.500000" invMass="15.000000" id="21" name="leftknee" bodyAreaHint="1" />
+    <particle x="-4.500000" y="0.500000" z="0.500000" invMass="20.000000" id="12285680" name="rightfoot" bodyAreaHint="1" />
+    <particle x="5.500000" y="0.500000" z="0.500000" invMass="20.000000" id="22" name="leftfoot" bodyAreaHint="1" />
+    <stick a="12285680" b="12285328" />
+    <stick a="12285328" b="10" />
+    <stick a="10" b="20" />
+    <stick a="20" b="21" />
+    <stick a="21" b="22" />
+    <stick a="10" b="1" />
+    <stick a="1" b="15" />
+    <stick a="15" b="25" />
+    <stick a="20" b="1" />
+    <stick a="1" b="25" />
+    <stick a="25" b="12273840" />
+    <stick a="12273840" b="12273488" />
+    <stick a="15" b="12274576" />
+    <stick a="12274576" b="12274112" />
+    <stick a="15" b="45" />
+    <stick a="45" b="25" />
+    <stick a="45" b="50" />
+</skeleton>
